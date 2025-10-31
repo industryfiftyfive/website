@@ -30,7 +30,7 @@ body {
     font-size: 2.0em; /* Smaller than the title but still prominent */
     font-style: italic; /* Add some stylistic flair */
     margin-top: 0;
-    color: #0E1B80; /* Very dark color for emphasis */
+    color: black; /* Very dark color for emphasis */
 }
 
 /* Styling for the image */
@@ -41,4 +41,5 @@ body {
     margin-bottom: 10px; /* Space below the image */
     border: 5px solid #ccc; /* Optional: adds a simple border around the image */
     border-radius: 29px; /* Optional: rounds the corners of the border */
+
 }
