@@ -43,3 +43,23 @@ body {
     border-radius: 29px; /* Optional: rounds the corners of the border */
 
 }
+/* Styling for the link area */
+.link-area {
+    margin-top: 40px; /* Space above the link */
+}
+
+.link-area a {
+    text-decoration: none; /* Removes the default underline */
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: 2px solid white; /* Adds a border for a button look */
+    border-radius: 5px;
+    color: white; /* Text color */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Add a simple hover effect to show interaction */
+.link-area a:hover {
+    background-color: white;
+    color: #1a1a1a; /* Text becomes dark on hover */
+}
