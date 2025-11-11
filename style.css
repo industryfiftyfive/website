@@ -19,9 +19,9 @@ body {
 
 /* Styling for the main title */
 .main-title {
-    font-size: 3.5em; /* Large text size (5 times the base font size) */
+    font-size: 3em; /* Large text size (5 times the base font size) */
     font-weight: **bold**; /* Makes the text bold */
-    color: #0E1B80; /* Very dark color for emphasis */
+    color: black; /* Very dark color for emphasis */
     margin-bottom: 0.1em; /* Reduce space below the title */
 }
 
@@ -61,5 +61,6 @@ body {
     background-color: white;
     color: #1a1a1a; /* Text becomes dark on hover */
 }
+
 
 
