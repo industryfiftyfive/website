@@ -39,8 +39,6 @@ body {
     height: auto; /* Maintains the image's aspect ratio */
     margin-top: 30px; /* Space above the image */
     margin-bottom: 10px; /* Space below the image */
-    border: 5px solid #ccc; /* Optional: adds a simple border around the image */
-    border-radius: 29px; /* Optional: rounds the corners of the border */
 
 }
 /* Styling for the link area */
@@ -63,3 +61,4 @@ body {
     background-color: white;
     color: #1a1a1a; /* Text becomes dark on hover */
 }
+
