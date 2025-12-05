@@ -70,7 +70,6 @@ body {
 }
 .typewriter-text {
   font-family: monospace; /* Essential for a typewriter feel */
-  font-size: 1.2em
   overflow: hidden; /* Hides the text initially */
   border-right: 0.15em solid orange; /* The blinking cursor */
   white-space: nowrap; /* Prevents text from wrapping */
@@ -90,6 +89,7 @@ body {
   from, to { border-color: transparent; }
   50% { border-color: orange; } /* Cursor color */
 }
+
 
 
 
