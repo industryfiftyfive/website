@@ -61,6 +61,34 @@ body {
     background-color: white;
     color: #1a1a1a; /* Text becomes dark on hover */
 }
+.typewriter-container {
+  /* Optional: Center the text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust as needed */
+}
+.typewriter-text {
+  font-family: monospace; /* Essential for a typewriter feel */
+  overflow: hidden; /* Hides the text initially */
+  border-right: 0.15em solid orange; /* The blinking cursor */
+  white-space: nowrap; /* Prevents text from wrapping */
+  margin: 0 auto; /* Centers the text horizontally */
+  letter-spacing: 0.15em; /* Adjust spacing between characters */
+  animation: 
+    typing 3.5s steps(30, end), /* Typing animation */
+    blink-caret 0.75s step-end infinite; /* Blinking cursor animation */
+}
+/* Keyframes for the typing animation */
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; } /* Adjust to the actual width of the text */
+}
+/* Keyframes for the blinking cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: orange; } /* Cursor color */
+}
 
 
 
