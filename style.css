@@ -66,10 +66,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust as needed */
+  height: 5vh; /* Adjust as needed */
 }
 .typewriter-text {
   font-family: monospace; /* Essential for a typewriter feel */
+  font-size: 2em;
   overflow: hidden; /* Hides the text initially */
   border-right: 0.15em solid orange; /* The blinking cursor */
   white-space: nowrap; /* Prevents text from wrapping */
